@@ -1,17 +1,18 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home"; // Import your Home component
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/Home';
+import UserPage from './pages/UserPage'
 
-const App = () => {
+function App() {
   return (
     <Router>
       <Routes>
-        {/* Define the routes for your app */}
-        <Route path="/" element={<Home />} />
-        {/* Add more routes here for other pages */}
+        <Route path="/" element={<HomePage />} />
+	<Route path="/user" element={<UserPage />} />
       </Routes>
     </Router>
   );
-};
+}
 
 export default App;
+

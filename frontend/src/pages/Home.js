@@ -1,7 +1,7 @@
 // src/pages/Home.js
 import React from 'react';
 
-const Home = () => {
+const Homepage = () => {
   return (
     <div>
       <h1>Welcome to Gitpulse</h1>
@@ -10,4 +10,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Homepage;
