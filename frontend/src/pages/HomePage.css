@@ -12,7 +12,8 @@
 }
 
 .logo {
-  width: 150px; /* Adjust the size of your logo */
+  width: 20vw; /* Adjust the size of your logo */
+  height: auto;
   margin-bottom: 2rem; /* Add spacing between logo and title */
   font-weight: bold; /* You can use font-weight for the text, but logos are usually images */
 }
