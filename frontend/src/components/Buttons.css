@@ -1,0 +1,14 @@
+/* src/components/Button.css */
+.btn {
+  padding: 12px 24px;
+  font-size: 1.2em;
+  background-color: #00F0FF;
+  color: #0B0C10;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #B388EB;
+}
